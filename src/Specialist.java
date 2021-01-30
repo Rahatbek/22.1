@@ -6,6 +6,11 @@ public class Specialist extends Employee {
         this.levels = levels;
     }
 
+    @Override
+    public void goToVacation() {
+        System.out.println("We are going to Karakol!");
+    }
+
     public Specialist() {
 
     }

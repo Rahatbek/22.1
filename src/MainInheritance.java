@@ -15,40 +15,40 @@ public class MainInheritance {
 
         CEO albusDumbldore = new CEO("Albus Dumbledore", 85, 4000, true, true);
 
-        Employee[] employees = new Employee[]{harryPotter,hermioneGranger,ronWeaslye,minervaMcGonagall,doloresUmbridge,severusSnape,
+        Employee[] employeesGoToVacation = new Employee[]{harryPotter,hermioneGranger,ronWeaslye,minervaMcGonagall,doloresUmbridge,severusSnape,
         rolandaTryuk,rebeusHagrid,masterDobby,albusDumbldore};
-        for (int i = 0; i < employees.length; i++)
-//        System.out.println(employees[i].print());
+        for (int i = 0; i < employeesGoToVacation.length; i++)
+        employeesGoToVacation[i].goToVacation();
 
-        System.out.println(harryPotter.print());
-        harryPotter.workWithClients();
-        System.out.println("------------------");
-        System.out.println(hermioneGranger.print());
-        hermioneGranger.workWithClients();
-        System.out.println("------------------");
-        System.out.println(ronWeaslye.print());
-        ronWeaslye.workWithClients();
-        System.out.println("------------------");
-        System.out.println(minervaMcGonagall.print());
-        minervaMcGonagall.writeCode();
-        System.out.println("------------------");
-        System.out.println(doloresUmbridge.print());
-        doloresUmbridge.writeCode();
-        System.out.println("------------------");
-        System.out.println(severusSnape.print());
-        severusSnape.writeCode();
-        System.out.println("------------------");
-        System.out.println(rolandaTryuk.print());
-        rolandaTryuk.writeCode();
-        System.out.println("------------------");
-        System.out.println(rebeusHagrid.print());
-        rebeusHagrid.writeProcedures();
-        System.out.println("------------------");
-        System.out.println(masterDobby.print());
-        masterDobby.writeProcedures();
-        System.out.println("------------------");
-        System.out.println(albusDumbldore.print());
-        albusDumbldore.goPublic();
+//        System.out.println(harryPotter.print());
+//        harryPotter.workWithClients();
+//        System.out.println("------------------");
+//        System.out.println(hermioneGranger.print());
+//        hermioneGranger.workWithClients();
+//        System.out.println("------------------");
+//        System.out.println(ronWeaslye.print());
+//        ronWeaslye.workWithClients();
+//        System.out.println("------------------");
+//        System.out.println(minervaMcGonagall.print());
+//        minervaMcGonagall.writeCode();
+//        System.out.println("------------------");
+//        System.out.println(doloresUmbridge.print());
+//        doloresUmbridge.writeCode();
+//        System.out.println("------------------");
+//        System.out.println(severusSnape.print());
+//        severusSnape.writeCode();
+//        System.out.println("------------------");
+//        System.out.println(rolandaTryuk.print());
+//        rolandaTryuk.writeCode();
+//        System.out.println("------------------");
+//        System.out.println(rebeusHagrid.print());
+//        rebeusHagrid.writeProcedures();
+//        System.out.println("------------------");
+//        System.out.println(masterDobby.print());
+//        masterDobby.writeProcedures();
+//        System.out.println("------------------");
+//        System.out.println(albusDumbldore.print());
+//        albusDumbldore.goPublic();
 
 
     }

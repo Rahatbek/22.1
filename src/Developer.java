@@ -6,6 +6,11 @@ public class Developer extends Employee {
         this.grades = grades;
     }
 
+    @Override
+    public void goToVacation() {
+        System.out.println("We are going to bootcamp!");
+    }
+
     public Developer() {
 
     }

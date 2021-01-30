@@ -6,6 +6,11 @@ public class Manager extends Employee {
         this.hasStocks = hasStocks;
     }
 
+    @Override
+    public void goToVacation() {
+        System.out.println("We are going to China!");
+    }
+
     public Manager() {
 
     }

@@ -10,6 +10,10 @@ public class Employee {
         this.salary = salary;
     }
 
+    public void goToVacation() {
+        System.out.println("Dear employees time to go on vacation");
+    }
+
     public Employee() {
     }
 

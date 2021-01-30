@@ -8,6 +8,11 @@ public class CEO extends Employee {
         this.hasStocks = hasStocks;
     }
 
+    @Override
+    public void goToVacation() {
+        System.out.println("I am going to Hawaii!");
+    }
+
     public CEO() {
 
     }
